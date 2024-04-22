@@ -4,8 +4,8 @@
 }
 
 :root {
---cinza-shamanis: #3c3c3c;
---vermelho-shamanis: #fa1e4a;
+    --cinza-shamanis: #3c3c3c;
+    --vermelho-shamanis: #fa1e4a;
 }
 
 
@@ -15,6 +15,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #3c3c3c;
+}
 
 .container-grid {
     width: 80%;
@@ -26,24 +29,24 @@
     /* vh -> Porcentagem da ALTURA da viewport (janela) */
     height: 280vh;
 
-background-image: linear-gradient(90deg, rgba(60,60,60,1) 0%, rgba(60,60,60,1) 23%, rgba(60,60,60,0.5) 100%), url(img/Leona\ Seo\ Hyun_top.png);
-background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(60, 60, 60, 1) 0%, rgba(60, 60, 60, 1) 23%, rgba(60, 60, 60, 0.5) 100%), url(img/Leona\ Seo\ Hyun_top.png);
+    background-repeat: no-repeat;
 
-background-position: 100% 0%;
-background-size: contain;
+    background-position: 100% 0%;
+    background-size: contain;
 
 }
 
 header img {
-width: 290px;
+    width: 290px;
 }
 
 header {
-height: 165px;
+    height: 165px;
 
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
@@ -65,7 +68,7 @@ align-items: center;
 }
 
 .menu a:hover {
-    color: rgb(255, 255, 255);
+    color: #fa1e4a;
     text-decoration-color: var(--vermelho-shamanis) #fa1e4a;
 
 }
@@ -83,6 +86,7 @@ align-items: center;
 
     overflow: hidden;
 }
+
 #sobre {
     height: 800px;
 
@@ -97,21 +101,24 @@ align-items: center;
 }
 
 h2 {
+    color: #fa1e4a;
     font-family: "ProtestRevolution";
     font-size: 28px;
-
 
 }
 
 #sobre p {
+    color: whitesmoke;
     font-family: "Comfortaa";
     font-size: 17px;
     text-align: left;
 }
 
-#cases {
-    text-align: center;
 
+
+#criadores #cases {
+    color: whitesmoke;
+    text-align: center;
     padding-bottom: 100px;
     margin-bottom: 100px;
 }
@@ -128,8 +135,8 @@ h2 {
 }
 
 .card {
-    height: 400px;
-    width: 250px;
+    height: 650px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -141,12 +148,13 @@ h2 {
     margin-bottom: 20px;
 
     border-radius: 4px;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
 }
 
 .card img {
     height: 55%;
     width: 100%;
+    
 
     /*border-radius: 4px 4px 0 0; */
     border-top-left-radius: 4px;
@@ -170,7 +178,7 @@ h2 {
     width: 90%;
     height: 40px;
 
-    background-color: var(--laranja-gamifica);
+    background-color: var(--vermelho-shamanis);
 
     border: none;
     border-radius: 4px;
@@ -187,5 +195,6 @@ h2 {
 }
 
 .card button:hover {
-    background-color: #ad4929;
+    background-color: #641421;
 }
+
