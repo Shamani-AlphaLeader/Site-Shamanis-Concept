@@ -31,7 +31,7 @@ body {
 
     background-image: url(img/Leona\ Seo\ Hyun\ Top\ Thumbnail.png);
     background-repeat: no-repeat;
-    
+
     background-position: 100% 0%;
     background-size: contain;
 
@@ -42,7 +42,7 @@ header img {
 }
 
 header {
-    height: 165px;
+    height: 300px;
 
     display: flex;
     justify-content: space-between;
@@ -56,7 +56,7 @@ header {
 }
 
 .menu a {
-    color: white;
+    color: whitesmoke;
 
     font-size: 20px;
 
@@ -68,14 +68,15 @@ header {
 }
 
 .menu a:hover {
-    color: #fa1e4a;
+    color: var(--vermelho-shamanis);
     text-decoration-color: var(--vermelho-shamanis) #fa1e4a;
 
 }
 
 .conteudo-banner p {
     color: whitesmoke;
-
+    display: flex;
+    justify-content: flex-start;
     font-family: "Rajdhani";
     font-size: 35px;
 
@@ -87,7 +88,7 @@ header {
 }
 
 #portfolio {
-
+    margin-top: 750px;
     color: var(--vermelho-shamanis);
     font-family: "ProtestRevolution";
     font-size: 28px;
@@ -95,17 +96,62 @@ header {
 
 }
 
+#portfolio .titulo {
+    color: var(--vermelho-shamanis);
+    text-decoration: underline transparent;
+    text-align: start;
+    font-family: "ProtestRevolution";
+    font-size: 28px;
+}
+
 #portfolio p {
 
     color: whitesmoke;
     font-family: "Comfortaa";
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 
 }
 
+#portfolio .container-grid img {
+    height: 650px;
+    width: 800px;
+}
 
-#cases{
+#portfolio .container-grid div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#portfolio .container-grid div button {
+    background-color: #641421;
+
+    width: 15%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: var(--vermelho-shamanis);
+
+    border: none;
+    border-radius: 4px;
+    color: whitesmoke;
+
+    font-family: "Rajdhani";
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background-color 500ms;
+
+}
+
+#portfolio .container-grid div button:hover {
+    background-color: #641421;
+}
+
+#cases {
     height: 800px;
 
     display: flex;
@@ -209,7 +255,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 
     background-color: var(--cinza-shamanis);
 
@@ -217,13 +263,13 @@ h2 {
     margin-bottom: 20px;
 
     border-radius: 4px;
-    
+
 }
 
 .card img {
     height: 65%;
     width: 100%;
-    
+
 
     /*border-radius: 4px 4px 0 0; */
     border-top-left-radius: 4px;
@@ -410,4 +456,35 @@ footer .container-grid {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+footer .img {
+
+    src: url(img/Akai\ Sensei\ Footer-image.png);
+
+}
+
+.redes-sociais {
+    height: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.redes-sociais p {
+    color: white;
+    font-family: "Rajdhani";
+    font-size: 20px;
+}
+
+.icones-redes {
+    width: 240px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones-redes a {
+    color: white;
 }
