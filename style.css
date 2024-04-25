@@ -42,7 +42,7 @@ header img {
 }
 
 header {
-    height: 300px;
+    height: 240px;
 
     display: flex;
     justify-content: space-between;
@@ -313,11 +313,13 @@ h2 {
     background-color: #641421;
 }
 
+/* Setor do contato*/
+
 #contato {
     text-align: center;
 
-    padding-bottom: 100px;
-    margin-bottom: 100px;
+
+
 
 }
 
@@ -438,37 +440,42 @@ h2 {
     background-color: #641421;
 }
 
-/* Placeholder */
+/* Setor do contato/Placeholder */
 #contato form input::placeholder,
 #contato form textarea::placeholder {
     color: #b9b9b9;
 }
 
-footer {
-    height: 290px;
+/* Setor do Footer */
 
-    background-color: var(--cinza-shamanis);
+
+footer {
+    /* vh -> Porcentagem da ALTURA da viewport (janela) */
+    height: 1230px;
+    width: 1920px;
+    background-image: url(./img/Akai\ Sensei\ Footer-image.png);
+    background-repeat: no-repeat;
+
+    background-position: 0% 100%;
+    background-size: contain;
+
 }
 
 footer .container-grid {
     height: 100%;
-
+    width: 100%;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer .img {
-
-    src: url(img/Akai\ Sensei\ Footer-image.png);
+    align-items: flex-end;
 
 }
+
 
 .redes-sociais {
-    height: 30%;
-
+    height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -479,12 +486,38 @@ footer .img {
     font-size: 20px;
 }
 
-.icones-redes {
-    width: 240px;
+.svg {
     display: flex;
+    align-items: flex-start;
     justify-content: space-around;
 }
 
+.icones-redes {
+    width: 240px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
 .icones-redes a {
-    color: white;
+    color: whitesmoke;
+}
+
+.direitos {
+
+    margin-left: 160px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.direitos p {
+
+    color: whitesmoke;
+    font-family: "Rajdhani";
+    font-size: 20px;
+    text-align: center;
 }
