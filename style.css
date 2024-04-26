@@ -85,6 +85,7 @@ header {
 .conteudo-banner span {
     display: block;
     overflow: hidden;
+
 }
 
 #portfolio {
@@ -110,12 +111,14 @@ header {
     font-family: "Comfortaa";
     font-size: 17px;
     text-align: center;
+    margin-bottom: 65px;
 
 }
 
 #portfolio .container-grid img {
     height: 650px;
     width: 800px;
+    margin-bottom: 50px;
 }
 
 #portfolio .container-grid div {
@@ -129,17 +132,18 @@ header {
     width: 15%;
     height: 40px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
     background-color: var(--vermelho-shamanis);
 
     border: none;
-    border-radius: 4px;
+    border-radius: 25px;
     color: whitesmoke;
 
     font-family: "Rajdhani";
     font-size: 17px;
     font-weight: 600;
+    text-align: center;
 
     cursor: pointer;
 
@@ -161,15 +165,109 @@ header {
     text-align: center;
     padding: 100px 25%;
 
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#cases h2 {
+    margin-bottom: 70px;
+}
+
+
+.container-cards {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+
+    height: 650px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--cinza-shamanis);
+
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 4px;
 
 }
 
+.card img {
+    
+    display: flex;
+    justify-content: space-around;
+    height: 65%;
+    width: 100%;
+
+    /*border-radius: 4px 4px 0 0; */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+
+}
+
+
+.card p {
+    text-align: center;
+
+    font-family: "Comfortaa";
+    font-size: 16px;
+
+    padding: 7%;
+
+    color: whitesmoke;
+}
+
+.card button {
+    width: 90%;
+    height: 60px;
+
+    background-color: var(--vermelho-shamanis);
+
+    border: none;
+    border-radius: 25px;
+    color: whitesmoke;
+
+    font-family: "Rajdhani";
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background-color 500ms;
+margin-top: 16px;
+margin-bottom: 16px;
+
+}
+
+.card button:hover {
+    background-color: #641421;
+}
+
 #alpha-squad {
+    background-image: url(img/Bruno\ Shamani_asa\ extra.png);
+    background-repeat: no-repeat;
+    height: 640px;
+    width: 700px;
+    background-position: 25% 40%;
+    background-size: 640px;
 
     color: var(--vermelho-shamanis);
     font-family: "ProtestRevolution";
     font-size: 28px;
     text-align: left;
+    margin-top: 125px;
+    margin-bottom: 125px;
 
 }
 
@@ -179,7 +277,38 @@ header {
     font-family: "Comfortaa";
     font-size: 17px;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
 
+#alpha-squad button {
+    background-color: #641421;
+
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--vermelho-shamanis);
+    border: none;
+    border-radius: 25px;
+    color: whitesmoke;
+    font-family: "Rajdhani";
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background-color 600ms;
+}
+
+#alpha-squad button:hover {
+    background-color: #641421;
+}
+
+.divisor {
+    display: block;
+    overflow: hidden;
 }
 
 #sobre {
@@ -191,7 +320,7 @@ header {
 
     text-align: center;
     padding: 100px 25%;
-
+    margin-bottom: 25px;
 
 }
 
@@ -214,13 +343,27 @@ h2 {
     font-family: "Comfortaa";
     font-size: 17px;
     text-align: center;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+#gamificacao h2 {
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 #criadores {
+    background-image: url(img/Bruno\ Shamani\ &\ Ryo\ Hayasaki\ Love\ Hug_\ creators\ .png);
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 700px;
+    background-position: 25% 40%;
+    background-size: 640px;
     color: var(--vermelho-shamanis);
     font-family: "Comfortaa";
     font-size: 28px;
-    text-align: left;
+    margin-top: 125px;
+    margin-bottom: 125px;
 }
 
 #criadores p {
@@ -228,98 +371,26 @@ h2 {
     font-family: "Comfortaa";
     font-size: 17px;
     text-align: center;
-}
-
-#cases {
-    color: whitesmoke;
-    text-align: center;
-    padding-bottom: 100px;
-    margin-bottom: 100px;
-}
-
-#cases h2 {
-    margin-bottom: 70px;
-}
-
-.container-cards {
-    width: 100%;
-
+    margin-top: 65px;
+    margin-bottom: 65px;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
-.card {
-
-    height: 650px;
-    width: 350px;
+#criadores h2{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    margin-left: 750px;
+    margin-top: 65px;
+    margin-bottom: 65px;
     align-items: center;
 
-    background-color: var(--cinza-shamanis);
-
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-
-    border-radius: 4px;
-
-}
-
-.card img {
-    height: 65%;
-    width: 100%;
-
-
-    /*border-radius: 4px 4px 0 0; */
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-
-
-}
-
-.card p {
-    text-align: center;
-
-    font-family: "Comfortaa";
-    font-size: 16px;
-
-    padding: 7%;
-
-    color: whitesmoke;
-}
-
-.card button {
-    width: 90%;
-    height: 40px;
-
-    background-color: var(--vermelho-shamanis);
-
-    border: none;
-    border-radius: 4px;
-    color: whitesmoke;
-
-    font-family: "ProtestRevolution";
-    font-size: 17px;
-    font-weight: 600;
-
-    cursor: pointer;
-
-    transition: background-color 500ms;
-
-}
-
-.card button:hover {
-    background-color: #641421;
 }
 
 /* Setor do contato*/
 
 #contato {
     text-align: center;
-
-
-
 
 }
 
@@ -370,7 +441,7 @@ h2 {
     background-color: #555555;
 
     border: none;
-    border-radius: 4px;
+    border-radius: 12px;
 
     outline: none;
 
@@ -397,7 +468,7 @@ h2 {
     background-color: #555555;
 
     border: none;
-    border-radius: 4px;
+    border-radius: 12px;
 
     padding: 10px;
 
@@ -427,7 +498,7 @@ h2 {
     background-color: var(--vermelho-shamanis);
 
     border: none;
-    border-radius: 4px;
+    border-radius: 25px;
 
     cursor: pointer;
 
