@@ -129,7 +129,7 @@ header {
 #portfolio .container-grid div button {
     background-color: #641421;
 
-    width: 15%;
+    width: 20%;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -148,7 +148,8 @@ header {
     cursor: pointer;
 
     transition: background-color 500ms;
-
+    display: flex;
+    align-items: center;
 }
 
 #portfolio .container-grid div button:hover {
@@ -161,9 +162,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    text-align: center;
-    padding: 100px 25%;
 
     color: whitesmoke;
     text-align: center;
@@ -187,7 +185,7 @@ header {
 .card {
 
     height: 650px;
-    width: 350px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -195,20 +193,18 @@ header {
 
     background-color: var(--cinza-shamanis);
 
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-
     border-radius: 4px;
+
 
 }
 
 .card img {
-    
+
     display: flex;
     justify-content: space-around;
-    height: 65%;
-    width: 100%;
-
+    height: 305px;
+    width: 305px;
+    align-items: center;
     /*border-radius: 4px 4px 0 0; */
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -229,7 +225,7 @@ header {
 }
 
 .card button {
-    width: 90%;
+    width: 65%;
     height: 60px;
 
     background-color: var(--vermelho-shamanis);
@@ -245,8 +241,8 @@ header {
     cursor: pointer;
 
     transition: background-color 500ms;
-margin-top: 16px;
-margin-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 
 }
 
@@ -255,17 +251,9 @@ margin-bottom: 16px;
 }
 
 #alpha-squad {
-    background-image: url(img/Bruno\ Shamani_asa\ extra.png);
-    background-repeat: no-repeat;
-    height: 640px;
-    width: 700px;
-    background-position: 25% 40%;
-    background-size: 640px;
 
     color: var(--vermelho-shamanis);
     font-family: "ProtestRevolution";
-    font-size: 28px;
-    text-align: left;
     margin-top: 125px;
     margin-bottom: 125px;
 
@@ -279,12 +267,16 @@ margin-bottom: 16px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
-    
+    margin: 25px;
+    padding: 3%;
+
+
 }
 
 #alpha-squad button {
     background-color: #641421;
-
+    margin: 2%;
+    align-items: center;
     width: 20%;
     height: 40px;
     display: flex;
@@ -309,6 +301,7 @@ margin-bottom: 16px;
 .divisor {
     display: block;
     overflow: hidden;
+    margin: 10%;
 }
 
 #sobre {
@@ -343,25 +336,26 @@ h2 {
     font-family: "Comfortaa";
     font-size: 17px;
     text-align: center;
-    margin-top: 125px;
+   
     margin-bottom: 125px;
+    padding: 10%;
 }
 
 #gamificacao h2 {
     margin-top: 65px;
     margin-bottom: 65px;
+
 }
 
 #criadores {
     background-image: url(img/Bruno\ Shamani\ &\ Ryo\ Hayasaki\ Love\ Hug_\ creators\ .png);
     background-repeat: no-repeat;
+    margin: 10%;
     height: 650px;
     width: 700px;
     background-position: 25% 40%;
     background-size: 640px;
-    color: var(--vermelho-shamanis);
-    font-family: "Comfortaa";
-    font-size: 28px;
+    
     margin-top: 125px;
     margin-bottom: 125px;
 }
@@ -375,15 +369,19 @@ h2 {
     margin-bottom: 65px;
     display: flex;
     justify-content: right;
+    padding: 5%;
 }
 
-#criadores h2{
+#criadores h2 {
     display: flex;
     justify-content: center;
-    margin-left: 750px;
+    margin-left: 650px;
     margin-top: 65px;
     margin-bottom: 65px;
     align-items: center;
+    color: var(--vermelho-shamanis);
+    font-family: "ProtestRevolution";
+    font-size: 28px;
 
 }
 
@@ -555,24 +553,31 @@ footer .container-grid {
     color: white;
     font-family: "Rajdhani";
     font-size: 20px;
+
 }
 
 .svg {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .icones-redes {
+    height: 80px;
     width: 240px;
-
+    margin-bottom: 125px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+
 }
 
 .icones-redes a {
     color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
 }
 
 .direitos {
