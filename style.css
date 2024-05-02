@@ -376,8 +376,13 @@ h2 {
 #criadores {
 
     margin: 10%;
-    margin-top: px;
     margin-bottom: 125px;
+    
+}
+
+.bruno-ryo {
+    display: flex;
+    justify-content: space-around;
 }
 
 #criadores p {
