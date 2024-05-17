@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="carregarCases()">
 
     <div class="banner">
         <header class="container-grid">
@@ -22,6 +22,13 @@
                 <a href="#cases">Cases de Sucesso</a>
                 <a href="#gamifique">Gamifique a sua Empresa</a>
             </nav>
+            <button onclick="abrirFecharMenu()">
+                <svg id="icone-x" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path fill="#ffffff"
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                </svg>
+
         </header>
         <div class="container-grid conteudo-banner">
             <p><span>A Supremacia na arte de jogar e inovar.</span></p>
@@ -226,25 +233,25 @@
         <div>
             <h2>Problemas com a sua empresa? Gamifique-a!!!</h2>
         </div>
-        <form>
+        <form onsubmit="solicitarOrcamento(event)">
             <div class="campo">
                 <label for="campo-nome">Nome Completo</label>
-                <input id="campo-nome" type="text" placeholder="Digite seu nome...">
+                <input required id="campo-nome" type="text" placeholder="Digite seu nome...">
             </div>
             <div class="campo">
                 <label for="">E-mail para Contato</label>
-                <input type="email" name="" id="campo-email" placeholder="Digite seu email...">
+                <input required id="campo-email"type="email" placeholder="Digite seu email...">
             </div>
             <div class="campo">
                 <label for="">Telefone/Whatsapp</label>
-                <input type="DDD" name="" id="campo-DDD" placeholder="DDD">
+                <input required id="campo-DDD" type="DDD" placeholder="DDD">
                 <label for="">Tel:</label>
-                <input type="telefone" name="" id="campo-telefone" placeholder="Digite seu telefone">
+                <input required id="campo-telefone" type="telefone" placeholder="Digite seu telefone">
             </div>
             <div class="campo-textarea">
                 <label for="campo-descricao">Conte-nos sobre a sua Empresa
                 </label>
-                <textarea name="" id="campo-descricao" cols="30" rows="10" placeholder="Digite aqui"></textarea>
+                <textarea required name="" id="campo-descricao" cols="30" rows="10" placeholder="Digite aqui"></textarea>
             </div>
             <button type="submit">Finalizar</button>
         </form>
