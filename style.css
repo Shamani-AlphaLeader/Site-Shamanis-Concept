@@ -37,6 +37,20 @@ body {
 
 }
 
+.botoes button{
+    width: 30px;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.botoes button svg {
+    fill: #ffffff76;
+}
+
+
 header img {
     width: 290px;
 }
@@ -624,6 +638,10 @@ footer .container-grid {
 }
 
 .menu-fechado{
+    display: none;
+}
+
+#icone-barras{
     display: none;
 }
 

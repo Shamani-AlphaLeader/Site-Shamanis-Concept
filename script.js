@@ -62,9 +62,6 @@ const carregarCases = () => {
 }
 
 
-
-
-
 const solicitarOrcamento = (event) => {
     // Pegar valores dos inputs
     let valorNome = document.getElementById("campo-nome").value

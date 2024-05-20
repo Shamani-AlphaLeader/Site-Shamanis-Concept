@@ -1,1 +1,28 @@
-{}
+{
+  "cases": [
+    {
+      "imagem": "img/Kumakubo Yokuwo_cases1.png",
+      "descricao": "Acesse e veja de perto o primeiro dos cases de sucesso desenvolvido e elaborado pela Shamani’s Concept, o case da COOPERAÇÃO CONJUNTA, que já estimulou e interou muito positivamente em 2 grandes empresas a cooperação e ajuda conjunta entre os funcionários e membros de diversos setores das mesmas. Ambas as empresas passavam pelo mesmo problema, e obtiveram um maior êxito, logo após a implementação deste case.Comentários e relatos da primeira experiência com a aplicação do case totalmente gamificado foram oferecidos voluntariamente pelo piloto, mecânico e empresário, o Sr. Kumakubo Yokuwo, dono da renomada e respeitada oficina mecânica de preparação de autos, a KANSEI DRIFT GARAGE, uma das empresas que foi favorecida com a ajuda deste case interativo. Clique no título acima e veja mais á fundo.",
+      "id": ""
+    },
+    {
+      "imagem": "img/Uemura Ushida_cases2.png",
+      "descricao": "Veja também o segundo case de sucesso desenvolvido e elaborado pela Shamani’s Concept, o case da AJUDA TERCEIRIZADA, que incentiva de forma abrangente a solicitação de ajuda e mão de obra terceirizada, possibilitando assim, a divisão e compartilhamento de múltiplas tarefas sem sobrecarregar aqueles que são donos/funcionários solo. Este case ajudou e favoreceu também outras 2 empresas. Comentários e relatos da primeira experiência com a aplicação do case gamificado foram também cedidos voluntariamente pelo Chef Mestre, confeiteiro profissional e empresário, o Sr. Uemura Ushida, dono do também renomado e premiado restaurante oriental, o SAKURA YUME SUSHI-BAR & RESTAURANT, também sendo uma das 2 empresas que foi favorecida com a ajuda deste segundo case interativo. Clique também acima e veja mais.",
+      "id": ""
+    }
+  ],
+  "solicitacoes": [
+    {
+      "id": "",
+      "nome": "",
+      "email": "",
+      "descricao": ""
+    },
+    {
+      "id": "09d5",
+      "nome": "Bruno&Ryo",
+      "email": "br-sc@shamanisconcept.com.jp",
+      "descricao": "br-lovers asa"
+    }
+  ]
+}
